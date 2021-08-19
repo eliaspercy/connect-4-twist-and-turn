@@ -375,8 +375,6 @@ void play_move(struct move m, board u)
 	search_for_winner(u);
 }
 
-//You may put additional functions here if you wish.
-
 // Scan the grid, capitalising any winning indices 
 void search_for_winner(board u) 
 {

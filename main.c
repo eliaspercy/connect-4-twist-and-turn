@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include"connect4.h"
-int main(){
+
+int main() {
   FILE *infile,*outfile;
 
   board my_board=setup_board();
